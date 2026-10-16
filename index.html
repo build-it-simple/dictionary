@@ -1,28 +1,50 @@
-<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="robots" content="noindex, nofollow"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Diccionario técnico</title><style>
-:root{--bg:#f6f6f3;--cd:#fff;--tx:#1d1d1b;--mu:#6b6b66;--ac:#1f5f8b;--bd:#e0e0da;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#161616;--cd:#222;--tx:#eee;--mu:#9a9a94;--ac:#6fb1e0;--bd:#333;color-scheme:dark}}
-:root[data-theme="dark"]{--bg:#161616;--cd:#222;--tx:#eee;--mu:#9a9a94;--ac:#6fb1e0;--bd:#333;color-scheme:dark}
-html,body{height:auto}body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif}
-main{max-width:760px;margin:0 auto;padding:20px 16px 40px}h1{font-size:22px;margin:0 0 14px}
-.bar{display:flex;gap:8px;flex-wrap:wrap;position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);padding:8px 0;z-index:2}
-input,select{font:inherit;color:var(--tx);background:var(--cd);border:1px solid var(--bd);border-radius:10px;padding:12px}
-input{flex:1 1 220px;min-width:0}input:focus,select:focus{outline:2px solid var(--ac)}
-#chips{display:flex;gap:6px;flex-wrap:wrap;margin:4px 0 8px}.chip{border:1px solid var(--bd);background:var(--cd);color:var(--tx);border-radius:99px;padding:5px 12px;font:inherit;font-size:14px;cursor:pointer}.chip.on{background:var(--ac);color:var(--bg);border-color:var(--ac)}
-#n{color:var(--mu);font-size:13px;margin:6px 0}
-.card{background:var(--cd);border:1px solid var(--bd);border-radius:12px;padding:12px 14px;margin-bottom:8px}
-.t{font-weight:600;font-size:18px}.r{display:flex;gap:10px;margin-top:4px}.r b{flex:0 0 70px;color:var(--mu);font-weight:500;font-size:13px;padding-top:2px}.r.fr span{color:var(--ac);font-weight:600}
-.c{float:right;font-size:12px;color:var(--mu)}
-</style></head><body><main><h1>Diccionario técnico</h1>
-<div class="bar"><input id="q" type="search" placeholder="Buscar en cualquier idioma…" autocomplete="off" autofocus><select id="s"><option value="-1">Todos los idiomas</option><option value="0">Español</option><option value="1">Français</option><option value="2">English</option><option value="3">Italiano</option><option value="4">Deutsch</option></select></div>
-<div id="chips"></div><div id="n"></div><div id="o"></div></main>
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="robots" content="noindex, nofollow"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Diccionario técnico</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F7F8FA;--sf:#fff;--ink:#14181F;--mu:#5B6472;--ln:#E4E7EC;--ac:#1E3A5F;--on:#fff;--ring:rgba(30,58,95,.22);color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root{--bg:#0F1318;--sf:#171C23;--ink:#E8EBF0;--mu:#97A0AE;--ln:#262D37;--ac:#8DB8EA;--on:#0F1318;--ring:rgba(141,184,234,.28);color-scheme:dark}}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 "IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+main{max-width:820px;margin:0 auto;padding:36px 20px 72px}
+header{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:22px}
+h1{margin:0;font-size:28px;font-weight:600;letter-spacing:-.02em}
+#n{color:var(--mu);font-size:14px}
+.search{position:relative}.search svg{position:absolute;left:16px;top:50%;transform:translateY(-50%);width:20px;height:20px;color:var(--mu);pointer-events:none}
+#q{width:100%;box-sizing:border-box;height:54px;padding:0 16px 0 48px;font:inherit;font-size:17px;color:var(--ink);background:var(--sf);border:1px solid var(--ln);border-radius:12px;transition:border-color .15s,box-shadow .15s}
+#q:focus{outline:none;border-color:var(--ac);box-shadow:0 0 0 4px var(--ring)}
+.seg{display:inline-flex;max-width:100%;overflow-x:auto;margin-top:16px;padding:3px;background:var(--sf);border:1px solid var(--ln);border-radius:10px}
+.seg button{border:0;background:none;color:var(--mu);font:inherit;font-size:14px;padding:6px 13px;border-radius:7px;cursor:pointer;white-space:nowrap}
+.seg button[aria-pressed=true]{background:var(--ac);color:var(--on)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--ln);background:var(--sf);color:var(--ink);border-radius:99px;padding:5px 11px;font:inherit;font-size:13px;cursor:pointer}
+.chip i{width:8px;height:8px;border-radius:50%;background:var(--c)}
+.chip[aria-pressed=true]{border-color:var(--c,var(--ink));background:color-mix(in srgb,var(--c,var(--ink)) 14%,var(--sf))}
+button:focus-visible{outline:2px solid var(--ac);outline-offset:2px}
+#o{margin-top:26px;border-top:1px solid var(--ln)}
+.row{padding:18px 0 20px;border-bottom:1px solid var(--ln)}
+.top{display:flex;justify-content:space-between;align-items:baseline;gap:14px}
+h2{margin:0;font-size:19px;font-weight:600;letter-spacing:-.01em}h2 small{margin-left:8px;font-size:12px;font-weight:400;color:var(--mu);letter-spacing:0}
+.cat{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--mu);text-align:right}.cat i{flex:none;width:8px;height:8px;border-radius:50%;background:var(--c)}
+dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px 20px;margin:12px 0 0}
+dt{font-size:12px;color:var(--mu)}dd{margin:1px 0 0;font-size:15px}dd.fr{color:var(--ac);font-weight:500}
+mark{background:color-mix(in srgb,var(--ac) 18%,transparent);color:inherit;border-radius:2px}
+.empty{margin:28px 0;color:var(--mu)}
+@media(max-width:560px){main{padding-top:24px}.chips{flex-wrap:nowrap;overflow-x:auto;padding-bottom:4px}.chip{flex:none;white-space:nowrap}h1{font-size:24px}.top{flex-direction:column;gap:4px}.cat{text-align:left}dl{grid-template-columns:1fr 1fr}}
+</style></head><body><main>
+<header><h1>Diccionario técnico</h1><span id="n"></span></header>
+<div class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q" type="search" placeholder="Buscar en cualquier idioma" autocomplete="off" aria-label="Buscar un término"></div>
+<div class="seg" id="seg" role="group" aria-label="Idioma de búsqueda"></div>
+<div class="chips" id="chips" role="group" aria-label="Categoría"></div>
+<section id="o" aria-live="polite"></section></main>
 <script>
-const LB=['Español','Français','English','Italiano','Deutsch'];
-const CC={'Construcción':'#FFC000','Materiales':'#C00000','Elementos de tienda/distribución':'#FFE600','Obra':'#C55A11','Presupuesto/gestión/administración':'#92D050','Dibujo':'#0070C0'};
+const LB=['Español','Français','English','Italiano','Deutsch'],SC='Sin clasificar';
+const CC={'Elementos constructivos':'#E07A5F','Materiales':'#8AB17D','Elementos de tienda/distribución':'#F4B942','Organización obra':'#3D5A80','Presupuesto/gestión/administración':'#9B7FC7','Dibujo técnico/Revit':'#2A9D8F','Oficios':'#D96C9E','Sin clasificar':'#A7AFBB'};
 const N=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-const $=i=>document.getElementById(i),esc=s=>s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const $=i=>document.getElementById(i),esc=s=>s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const ix=c=>{const i=Object.keys(CC).findIndex(k=>N(k)===N(c));return i<0?99:i};
-const col=c=>{const k=Object.keys(CC).find(k=>N(k)===N(c));return k?CC[k]:'#999'};
-let E=[],cat='';
+const col=c=>{const k=Object.keys(CC).find(k=>N(k)===N(c));return k?CC[k]:'#A7AFBB'};
+const hl=(s,q)=>{if(!q)return esc(s);const n=N(s),k=n.length===s.length?n.indexOf(q):-1;return k<0?esc(s):esc(s.slice(0,k))+'<mark>'+esc(s.slice(k,k+q.length))+'</mark>'+esc(s.slice(k+q.length))};
+let E=[],cat='',L=-1;
 function parse(t){t=t.replace(/^\uFEFF/,'');const l=t.split('\n')[0],d=(l.match(/;/g)||[]).length>(l.match(/,/g)||[]).length?';':',';
 const R=[];let r=[],c='',q=false;
 for(let i=0;i<t.length;i++){const h=t[i];
@@ -30,18 +52,22 @@ if(q){if(h=='"'){if(t[i+1]=='"'){c+='"';i++}else q=false}else c+=h}
 else if(h=='"')q=true;else if(h==d){r.push(c);c=''}
 else if(h=='\n'||h=='\r'){if(h=='\r'&&t[i+1]=='\n')i++;r.push(c);R.push(r);r=[];c=''}else c+=h}
 if(c||r.length){r.push(c);R.push(r)}return R}
-function init(t){E=parse(t).slice(1).filter(p=>(p[0]||'').trim().length>1).map(p=>({f:[0,1,2,3,4].map(i=>(p[i]||'').trim()),c:(p[5]||'').trim()}));
-const cats=[...new Set(E.map(e=>e.c).filter(Boolean))].sort((a,b)=>ix(a)-ix(b)||a.localeCompare(b));
-if(cats.length){$('chips').innerHTML=['Todas',...cats].map(c=>`<button class="chip${c==='Todas'?' on':''}" style="border-left:8px solid ${c==='Todas'?'var(--bd)':col(c)}" data-c="${c==='Todas'?'':esc(c)}">${esc(c)}</button>`).join('');
-$('chips').onclick=e=>{if(!e.target.classList.contains('chip'))return;cat=e.target.dataset.c||'';[...$('chips').children].forEach(b=>b.classList.toggle('on',b===e.target));go()}}
+function bar(){$('seg').innerHTML=['Todos',...LB].map((n,j)=>`<button data-l="${j-1}" aria-pressed="${j-1===L}">${n}</button>`).join('')}
+function init(t){E=parse(t).slice(1).filter(p=>(p[0]||'').trim().length>1).map(p=>({f:[0,1,2,3,4].map(i=>(p[i]||'').trim()),c:(p[5]||'').trim()||SC}));
+const cats=[...new Set(E.map(e=>e.c))].sort((a,b)=>ix(a)-ix(b)||a.localeCompare(b));
+$('chips').innerHTML=`<button class="chip" data-c="" aria-pressed="true">Todas</button>`+cats.map(c=>`<button class="chip" style="--c:${col(c)}" data-c="${esc(c)}" aria-pressed="false"><i></i>${esc(c)}</button>`).join('');
 go()}
-function go(){const q=N($('q').value.trim()),i=+$('s').value;let r=E.filter(e=>(!cat||e.c===cat)&&(!q||N(i<0?e.f.join(' '):e.f[i]).includes(q)));
+function go(){const q=N($('q').value.trim()),i=L;let r=E.filter(e=>(!cat||e.c===cat)&&(!q||N(i<0?e.f.join(' '):e.f[i]).includes(q)));
 r.forEach(e=>{const m=i>=0?i:(q?e.f.findIndex(v=>N(v).includes(q)):0);e.m=m>=0&&e.f[m]?m:0});
 const sc=e=>{if(!q)return 0;const h=N(e.f[e.m]);return h.startsWith(q)?0:h.includes(' '+q)?1:2};
 r.sort((a,b)=>sc(a)-sc(b)||N(a.f[a.m]).localeCompare(N(b.f[b.m])));
 $('n').textContent=r.length+(r.length===1?' término':' términos');
-$('o').innerHTML=r.length?r.map(e=>`<div class="card" style="border-left:6px solid ${e.c?col(e.c):'var(--bd)'}">${e.c?`<span class="c">${esc(e.c)}</span>`:''}<div class="t">${esc(e.f[e.m])} <small style="color:var(--mu);font-weight:400;font-size:12px">${LB[e.m]}</small></div>`+e.f.map((v,j)=>v&&j!==e.m?`<div class="r${j===1?' fr':''}"><b>${LB[j]}</b><span>${esc(v)}</span></div>`:'').join('')+'</div>').join(''):'<p style="color:var(--mu)">Sin resultados.</p>'}
-$('q').oninput=go;$('s').onchange=go;
+$('o').innerHTML=r.length?r.map(e=>{const o=e.f.map((v,j)=>v&&j!==e.m?`<div><dt>${LB[j]}</dt><dd${j===1?' class="fr"':''}>${esc(v)}</dd></div>`:'').join('');
+return`<article class="row" style="--c:${col(e.c)}"><div class="top"><h2>${hl(e.f[e.m],q)}<small>${LB[e.m]}</small></h2><span class="cat"><i></i>${esc(e.c)}</span></div>${o?`<dl>${o}</dl>`:''}</article>`}).join(''):`<p class="empty">No hay resultados${q?` para «${esc($('q').value.trim())}»`:''}. Prueba con otra palabra o cambia el idioma de búsqueda.</p>`}
+$('q').oninput=go;
+$('seg').onclick=e=>{const b=e.target.closest('button');if(!b)return;L=+b.dataset.l;bar();go()};
+$('chips').onclick=e=>{const b=e.target.closest('button');if(!b)return;cat=b.dataset.c;[...$('chips').children].forEach(x=>x.setAttribute('aria-pressed',x===b));go()};
+bar();if(matchMedia('(pointer:fine)').matches)$('q').focus();
 fetch('data.csv',{cache:'no-store'}).then(r=>{if(!r.ok)throw 0;return r.arrayBuffer()}).then(b=>{let t=new TextDecoder('utf-8').decode(b);if(t.includes('\uFFFD'))t=new TextDecoder('windows-1252').decode(b);init(t)})
-.catch(()=>{$('o').innerHTML='<div class="card"><b>No se pudo cargar data.csv.</b><br>Esta página debe estar en un servidor web, junto al archivo data.csv. No funciona abriéndola con doble clic.</div>'});
+.catch(()=>{$('o').innerHTML='<p class="empty"><b>No se pudo cargar data.csv.</b> Comprueba que esté en la misma carpeta que index.html y que la página se abra desde un servidor web, no con doble clic.</p>'});
 </script></body></html>
