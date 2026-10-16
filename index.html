@@ -1,0 +1,47 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="robots" content="noindex, nofollow"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Diccionario técnico</title><style>
+:root{--bg:#f6f6f3;--cd:#fff;--tx:#1d1d1b;--mu:#6b6b66;--ac:#1f5f8b;--bd:#e0e0da;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#161616;--cd:#222;--tx:#eee;--mu:#9a9a94;--ac:#6fb1e0;--bd:#333;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#161616;--cd:#222;--tx:#eee;--mu:#9a9a94;--ac:#6fb1e0;--bd:#333;color-scheme:dark}
+html,body{height:auto}body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:760px;margin:0 auto;padding:20px 16px 40px}h1{font-size:22px;margin:0 0 14px}
+.bar{display:flex;gap:8px;flex-wrap:wrap;position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);padding:8px 0;z-index:2}
+input,select{font:inherit;color:var(--tx);background:var(--cd);border:1px solid var(--bd);border-radius:10px;padding:12px}
+input{flex:1 1 220px;min-width:0}input:focus,select:focus{outline:2px solid var(--ac)}
+#chips{display:flex;gap:6px;flex-wrap:wrap;margin:4px 0 8px}.chip{border:1px solid var(--bd);background:var(--cd);color:var(--tx);border-radius:99px;padding:5px 12px;font:inherit;font-size:14px;cursor:pointer}.chip.on{background:var(--ac);color:var(--bg);border-color:var(--ac)}
+#n{color:var(--mu);font-size:13px;margin:6px 0}
+.card{background:var(--cd);border:1px solid var(--bd);border-radius:12px;padding:12px 14px;margin-bottom:8px}
+.t{font-weight:600;font-size:18px}.r{display:flex;gap:10px;margin-top:4px}.r b{flex:0 0 70px;color:var(--mu);font-weight:500;font-size:13px;padding-top:2px}.r.fr span{color:var(--ac);font-weight:600}
+.c{float:right;font-size:12px;color:var(--mu)}
+</style></head><body><main><h1>Diccionario técnico</h1>
+<div class="bar"><input id="q" type="search" placeholder="Buscar en cualquier idioma…" autocomplete="off" autofocus><select id="s"><option value="-1">Todos los idiomas</option><option value="0">Español</option><option value="1">Français</option><option value="2">English</option><option value="3">Italiano</option><option value="4">Deutsch</option></select></div>
+<div id="chips"></div><div id="n"></div><div id="o"></div></main>
+<script>
+const LB=['Español','Français','English','Italiano','Deutsch'];
+const CC={'Construcción':'#FFC000','Materiales':'#C00000','Elementos de tienda/distribución':'#FFE600','Obra':'#C55A11','Presupuesto/gestión/administración':'#92D050','Dibujo':'#0070C0'};
+const N=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+const $=i=>document.getElementById(i),esc=s=>s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const ix=c=>{const i=Object.keys(CC).findIndex(k=>N(k)===N(c));return i<0?99:i};
+const col=c=>{const k=Object.keys(CC).find(k=>N(k)===N(c));return k?CC[k]:'#999'};
+let E=[],cat='';
+function parse(t){t=t.replace(/^\uFEFF/,'');const l=t.split('\n')[0],d=(l.match(/;/g)||[]).length>(l.match(/,/g)||[]).length?';':',';
+const R=[];let r=[],c='',q=false;
+for(let i=0;i<t.length;i++){const h=t[i];
+if(q){if(h=='"'){if(t[i+1]=='"'){c+='"';i++}else q=false}else c+=h}
+else if(h=='"')q=true;else if(h==d){r.push(c);c=''}
+else if(h=='\n'||h=='\r'){if(h=='\r'&&t[i+1]=='\n')i++;r.push(c);R.push(r);r=[];c=''}else c+=h}
+if(c||r.length){r.push(c);R.push(r)}return R}
+function init(t){E=parse(t).slice(1).filter(p=>(p[0]||'').trim().length>1).map(p=>({f:[0,1,2,3,4].map(i=>(p[i]||'').trim()),c:(p[5]||'').trim()}));
+const cats=[...new Set(E.map(e=>e.c).filter(Boolean))].sort((a,b)=>ix(a)-ix(b)||a.localeCompare(b));
+if(cats.length){$('chips').innerHTML=['Todas',...cats].map(c=>`<button class="chip${c==='Todas'?' on':''}" style="border-left:8px solid ${c==='Todas'?'var(--bd)':col(c)}" data-c="${c==='Todas'?'':esc(c)}">${esc(c)}</button>`).join('');
+$('chips').onclick=e=>{if(!e.target.classList.contains('chip'))return;cat=e.target.dataset.c||'';[...$('chips').children].forEach(b=>b.classList.toggle('on',b===e.target));go()}}
+go()}
+function go(){const q=N($('q').value.trim()),i=+$('s').value;let r=E.filter(e=>(!cat||e.c===cat)&&(!q||N(i<0?e.f.join(' '):e.f[i]).includes(q)));
+r.forEach(e=>{const m=i>=0?i:(q?e.f.findIndex(v=>N(v).includes(q)):0);e.m=m>=0&&e.f[m]?m:0});
+const sc=e=>{if(!q)return 0;const h=N(e.f[e.m]);return h.startsWith(q)?0:h.includes(' '+q)?1:2};
+r.sort((a,b)=>sc(a)-sc(b)||N(a.f[a.m]).localeCompare(N(b.f[b.m])));
+$('n').textContent=r.length+(r.length===1?' término':' términos');
+$('o').innerHTML=r.length?r.map(e=>`<div class="card" style="border-left:6px solid ${e.c?col(e.c):'var(--bd)'}">${e.c?`<span class="c">${esc(e.c)}</span>`:''}<div class="t">${esc(e.f[e.m])} <small style="color:var(--mu);font-weight:400;font-size:12px">${LB[e.m]}</small></div>`+e.f.map((v,j)=>v&&j!==e.m?`<div class="r${j===1?' fr':''}"><b>${LB[j]}</b><span>${esc(v)}</span></div>`:'').join('')+'</div>').join(''):'<p style="color:var(--mu)">Sin resultados.</p>'}
+$('q').oninput=go;$('s').onchange=go;
+fetch('data.csv',{cache:'no-store'}).then(r=>{if(!r.ok)throw 0;return r.arrayBuffer()}).then(b=>{let t=new TextDecoder('utf-8').decode(b);if(t.includes('\uFFFD'))t=new TextDecoder('windows-1252').decode(b);init(t)})
+.catch(()=>{$('o').innerHTML='<div class="card"><b>No se pudo cargar data.csv.</b><br>Esta página debe estar en un servidor web, junto al archivo data.csv. No funciona abriéndola con doble clic.</div>'});
+</script></body></html>
