@@ -35,7 +35,7 @@ h2{margin:0;font-size:19px;line-height:1.15;font-weight:600;letter-spacing:-.025
 .lg,dt{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--mu)}
 .cats{display:flex;flex-direction:column;gap:4px;align-items:flex-start}.cat{display:inline-flex;align-items:center;gap:7px;font-size:13px;color:var(--mu)}.cat i{flex:none;width:18px;height:3px;border-radius:0;background:var(--c)}
 dl{grid-column:5/13;margin:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px 20px;align-content:start}dd{overflow-wrap:break-word}
-dd{margin:3px 0 0;font-size:16px}dd.fr{font-weight:600}
+dd{margin:0;font-size:16px;line-height:22px}dl dt{margin-top:4px}dd.fr{font-weight:600}
 mark{background:#0A0A0A;color:#fff;padding:0 2px}
 .empty{margin:36px 0;color:var(--mu)}
 @media(max-width:760px){main{padding:14px 18px 72px}.hero{margin-top:48px}.hero .tag,h1,.about,.ctl .tag,.ctl .box{grid-column:1/13}.about{margin-top:0}.menu{grid-template-columns:repeat(2,minmax(0,1fr))}.mh{margin-top:56px}.cap{font-size:10px}.ctl{margin-top:64px;row-gap:14px}.row{padding:20px 0}.l,dl{grid-column:1/13}dl{margin-top:14px;grid-template-columns:1fr 1fr}.e{display:none}.opt{margin-right:16px}}
@@ -90,8 +90,8 @@ r.sort((a,b)=>sc(a)-sc(b)||N(a.f[a.m]).localeCompare(N(b.f[b.m])));
 $('n').textContent=r.length+(r.length===1?' término':' términos');
 const raw=$('q').value.trim();
 $('o').innerHTML=r.length?r.map(e=>{let o='',cl='';
-if(T<0){o=e.f.some((v,j)=>v&&j!==e.m)?e.f.map((v,j)=>j===e.m?'':v?`<div><dt>${LB[j]}</dt><dd${j===1?' class="fr"':''}>${fm(v,'')}</dd></div>`:'<div class="e"></div>').join(''):''}
-else{cl=' class="one"';const v=e.f[T];o=v?`<div><dt>${LB[T]}</dt><dd${T===1?' class="fr"':''}>${fm(v,'')}</dd></div>`:`<div><dt>${LB[T]}</dt><dd class="miss">Traducción faltante<button class="sug" data-k="${e.k}" data-l="${T}">Sugerir traducción</button></dd></div>`}
+if(T<0){o=e.f.some((v,j)=>v&&j!==e.m)?e.f.map((v,j)=>j===e.m?'':v?`<div><dd${j===1?' class="fr"':''}>${fm(v,'')}</dd><dt>${LB[j]}</dt></div>`:'<div class="e"></div>').join(''):''}
+else{cl=' class="one"';const v=e.f[T];o=v?`<div><dd${T===1?' class="fr"':''}>${fm(v,'')}</dd><dt>${LB[T]}</dt></div>`:`<div><dd class="miss">Traducción faltante<button class="sug" data-k="${e.k}" data-l="${T}">Sugerir traducción</button></dd><dt>${LB[T]}</dt></div>`}
 return`<article class="row" style="--c:${col(e.c)}"><div class="l"><h2>${fm(e.f[e.m],q)}</h2><span class="lg">${LB[e.m]}</span><span class="cats">${[e.c,e.c2].filter(Boolean).map(c=>`<span class="cat" style="--c:${col(c)}"><i></i>${esc(c)}</span>`).join('')}</span></div>${o?`<dl${cl}>${o}</dl>`:''}</article>`}).join(''):`<div class="empty"><p>No hay resultados${raw?` para «${esc(raw)}»`:''}.</p>${raw?`<p>Traducción faltante.<button class="sug" data-new="1">Sugerir traducción</button></p>`:'<p>Prueba con otra palabra o cambia el idioma.</p>'}</div>`}
 const clean=t=>t.replace(/\s*\((?:n|v|adj)[^)]*\)\s*$/,'');
 function openSug(term,l){$('sf-t').value=term;$('sf-l').value=l;$('sf-s').value='';$('sf-m').textContent='';$('sf-m').className='';$('sf-b').disabled=false;$('dlg').showModal();setTimeout(()=>$('sf-s').focus(),30)}
