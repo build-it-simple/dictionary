@@ -1,209 +1,222 @@
 ﻿ESPAÑOL;FRANÇAIS;ENGLISH;ITALIANO;DEUTSCH;TEMA
 Acero (n.m.);Acier (n.m.);Steel (n.);Acciaio (n.m.);Stahl (n.m.);Materiales
-Acometida (n.f.);Raccordement (n.m.);;;;Sin clasificar
-Acristalado/a (adj.);Vitré/e (adj.);;;;Elementos constructivos
-Adosado/a (adj.);Adossé.e (adj.);;;;Sin clasificar
-Aislamiento (n.m.);Isolant (n.m.);Insulation (n.);Isolamento (n.m.);Dämmung (n.f.);Elementos constructivos
-Alicatado (n.m.);Carrelage (n.m.);;;;Elementos constructivos
-Alicatar (v.);Carreler (v.);;;;Elementos constructivos
-Aljibe (n.m.);Citerne (n.f.);;;;Sin clasificar
+Acometida (n.f.);Raccordement (n.m.);;;;Vocabulario construcción
+Acristalado/a (adj.);Vitré/e (adj.);;;;Vocabulario construcción
+Adosado/a (adj.);Adossé.e (adj.);;;;Vocabulario construcción
+Aislamiento (n.m.);Isolant (n.m.);Insulation (n.);Isolamento (n.m.);Dämmung (n.f.);Vocabulario construcción
+Alicatado (n.m.);Carrelage (n.m.);;;;Vocabulario construcción
+Alicatar (v.);Carreler (v.);;;;Vocabulario construcción
+Aljibe (n.m.);Citerne (n.f.);;;;Elementos de tienda/distribución
 Almacén (n.m.);Réserve (n.f.);Stockroom (n.);;Lager (n.n.);Elementos de tienda/distribución
-Alquilar (v.);Louer (v.);Rent (v.);;Mieten (v.);Organización obra
-Altavoz (n.m.);Haut-parleur (n.m.);Speaker (n.);;Lautsprecher (n.m.);Sin clasificar
-Altura (n.f.);Hauteur (n.f.);Height (n.);Altezza (n.f.);Höhe (n.f.);Dibujo técnico/Revit
-Alzado (n.m.);Élévation (n.f.);Elevation (n.);;;Dibujo técnico/Revit
-Ancho (n.m.);Largeur (n.f.);Width (n.);;Breite (n.f.);Dibujo técnico/Revit
-Andamio (n.m.);Échafaudage (n.m.);Scaffolding/scaffold (n.);;;Sin clasificar
-Angulo (n.m.);Angle (n.m.);Angle (n.);;;Dibujo técnico/Revit
-Antepecho (n.f.);Allège (n.f.);;;;Elementos constructivos
-Apertura (n.f.);Ouverture (n.f.);Opening (n.);;Eröffnung (n.f.);Elementos constructivos
-Arco (n.m.);Arc (n.m.);Arch (n.);Arco (n.m.);;Elementos constructivos
-Arista (n.f.);Arête (n.f.);;;;Dibujo técnico/Revit
-Armadura de espera (n.f.);Armature en attente (n.f.);;;;Elementos constructivos
+Alquilar (v.);Louer (v.);Rent (v.);;Mieten (v.);Organización obra/maquinaria
+Altavoz (n.m.);Haut-parleur (n.m.);Speaker (n.);;Lautsprecher (n.m.);Elementos de tienda/distribución
+Altura (n.f.);Hauteur (n.f.);Height (n.);Altezza (n.f.);Höhe (n.f.);Dibujo/Planos
+Alzado (n.m.);Élévation (n.f.);Elevation (n.);;;Dibujo/Planos
+Ancho (n.m.);Largeur (n.f.);Width (n.);;Breite (n.f.);Dibujo/Planos
+Andamio (n.m.);Échafaudage (n.m.);Scaffolding/scaffold (n.);;;Organización obra/maquinaria
+Angulo (n.m.);Angle (n.m.);Angle (n.);;;Dibujo/Planos
+Antepecho (n.f.);Allège (n.f.);;;;Vocabulario construcción
+Apertura (n.f.);Ouverture (n.f.);Opening (n.);;Eröffnung (n.f.);Vocabulario construcción
+Arco (n.m.);Arc (n.m.);Arch (n.);Arco (n.m.);;Vocabulario construcción
+Arista (n.f.);Arête (n.f.);;;;Dibujo/Planos
+Armadura de espera (n.f.);Armature en attente (n.f.);;;;Vocabulario construcción
 Ascensor (n.m.);Ascenseur (n.m.);Lift (n.);;Aufzug (n.m.);Elementos de tienda/distribución
-Atornillar (v.);Visser (v.);;;;Elementos constructivos
-Azulejo (n.m.);Carreau (n.m.);;;;Elementos constructivos
+Atornillar (v.);Visser (v.);;;;Vocabulario construcción
+Azulejo (n.m.);Carreau (n.m.);;;;Vocabulario construcción
 Balda (n.f.);Étagère (n.f.);Shelf (n.);;;Elementos de tienda/distribución
-Bandeja de cables (n.f.);Chemin de câbles (n.m.);;;;Elementos constructivos
-Barandilla (n.f.);Garde-corps (n.f.);;;Balaustrade (n.f.);Elementos constructivos
-Barra antipánico (n.f.+adj.);Barre antipanique (n.f.+adj.);Antipanic bar (adj.+n.);;;Elementos constructivos
-Bastidor (n.m.);Châssis (n.m);;;;Elementos constructivos
-Bisagra (n.f.);Charnière (n.f.);Hinge (n.);;;Elementos constructivos
-Bisel (n.m.);Biseau (n.m.);Bevel (n.);;;Elementos constructivos
-Biselado (adj.);Biseauté (adj.);Bevelled (adj.);;;Elementos constructivos
-Bovedilla (n.f.);Hourdis (n.f);Hollow-core (n.);;;Elementos constructivos
-Cable (n.m);Cable (n.m.);Cable (n.);;Kabel (n.n.);Elementos constructivos
+Bandeja de cables (n.f.);Chemin de câbles (n.m.);;;;Vocabulario construcción
+Barandilla (n.f.);Garde-corps (n.f.);;;Balaustrade (n.f.);Vocabulario construcción
+Barra antipánico (n.f.+adj.);Barre antipanique (n.f.+adj.);Antipanic bar (adj.+n.);;;Vocabulario construcción
+Bastidor (n.m.);Châssis (n.m.);;;;Vocabulario construcción
+Bisagra (n.f.);Charnière (n.f.);Hinge (n.);;;Vocabulario construcción
+Bisel (n.m.);Biseau (n.m.);Bevel (n.);;;Vocabulario construcción
+Biselado (adj.);Biseauté (adj.);Bevelled (adj.);;;Vocabulario construcción
+Bovedilla (n.f.);Hourdis (n.f.);Hollow-core (n.);;;Vocabulario construcción
+Cable (n.m.);Cable (n.m.);Cable (n.);;Kabel (n.n.);Vocabulario construcción
 Caja (n.f.);Caisse (n.f.);Cash register/cash desk (n.);;Kasse (n.f.);Elementos de tienda/distribución
 Caja fuerte (n.f.+adj.);Coffre fort (n.m+adj.);Vault (n.);;;Elementos de tienda/distribución
-Cargar (v.);Charger (v.);;;;Organización obra
-Carpintero/a (n.m/f.);Menuisier/ière (n.m/f.);Carpenter (n.);;Tischler (n.m.);Organización obra
-Carril (n.m.);Rail (n.m.);Rail (n.);;;Elementos constructivos
-Cartón-yeso (n.m.);Carton plâtre (n.m.);Gypsum (n.);;Gipsplatte (n.f.);Elementos constructivos
-Celosía (n.f.);Treillis (n.m.)/Structure triangulée (n.f.);Truss (n.);;;Elementos constructivos
+Cargar (v.);Charger (v.);;;;Organización obra/maquinaria
+Carpintero/a (n.m/f.);Menuisier/ière (n.m/f.);Carpenter (n.);;Tischler (n.m.);Organización obra/maquinaria
+Carril (n.m.);Rail (n.m.);Rail (n.);;;Vocabulario construcción
+Cartón-yeso (n.m.);Carton plâtre (n.m.);Gypsum (n.);;Gipsplatte (n.f.);Vocabulario construcción
+Celosía (n.f.);Treillis (n.m.)/Structure triangulée (n.f.);Truss (n.);;;Vocabulario construcción
 Centro comercial (n.m.);Centre commercial (n.m.);Mall (n.);;Einkaufszentrum (n.n.);Elementos de tienda/distribución
 Cerámica (n.f.);Céramique (n.f.);;;;Materiales
-Cerradura (n.f.);Serrure (n.f.);Lock (n.);;;Elementos constructivos
-Chapa ondulada (n.f.);Tôle ondulée (n.f.);;;;Elementos constructivos
-Cierrapuertas (n.m.);Ferme-portes (n.m.);Door closer (n.);;;Elementos constructivos
-Cinta de papel (n.f.);Bande à joints en papier (n.f.);;;;Elementos constructivos
+Cerradura (n.f.);Serrure (n.f.);Lock (n.);;;Vocabulario construcción
+Chapa ondulada (n.f.);Tôle ondulée (n.f.);;;;Vocabulario construcción
+Cierrapuertas (n.m.);Ferme-portes (n.m.);Door closer (n.);;;Vocabulario construcción
+Cinta de papel (n.f.);Bande à joints en papier (n.f.);;;;Vocabulario construcción
 Cobre (n.m.);Cuivre (n.m.);Copper (n.);;;Materiales
 Cocina (n.f.);Cuisine (n.f.);Kitchen (n.);Cucina (n.f.);Küche (n.f.);Elementos de tienda/distribución
-Cóncavo/a (adj.);Concave (adj.);;Concavo (adj.);;Sin clasificar
+Cóncavo/a (adj.);Concave (adj.);;Concavo (adj.);;Dibujo/Planos
 Concepto Contra Incendios (CCI) (n.m.);Plan de Sécurité Incendie (n.m.);Fire Protection System Plan (FPSP) (n.);;;Presupuesto/gestión/administración
-Conducto (n.m.);Conduit (n.m.);Duct (n.);;;Elementos constructivos
+Conducto (n.m.);Conduit (n.m.);Duct (n.);;;Vocabulario construcción
 Contrato (n.m.);Contrat (n.m.);Contract/agreement (n.);Contratto (n.m.);Vertrag (n.m.);Presupuesto/gestión/administración
-Convexo/a (adj.);Convexe (adj.);;Convesso (adj.);;Sin clasificar
-Cortafuego (adj.);Coupe-feu (adj.);Fire rated (adj.);;;Elementos constructivos
-Cortina (n.f.);Rideau (n.m.);Curtain (n.);;;Elementos constructivos
+Convexo/a (adj.);Convexe (adj.);;Convesso (adj.);;Dibujo/Planos
+Cortafuego (adj.);Coupe-feu (adj.);Fire rated (adj.);;;Vocabulario construcción
+Cortina (n.f.);Rideau (n.m.);Curtain (n.);;;Vocabulario construcción
 Coste (n.m.);Coût (n.m.);Cost (n.);;Kost (n.f.);Presupuesto/gestión/administración
-Cota (n.f.);Cote (n.f.);;;;Dibujo técnico/Revit
-Cuelgue (n.m.);;Hang (n.);;;Sin clasificar
-Demoler (v.);Démolir (v.);Demolish (v.);;;Elementos constructivos
-Descargar (v.);Décharger (v.);Unload (v.);;;Organización obra
-Destornillador (n.m.);Tournevis (n.m.);Screwdriver (n.);;;Sin clasificar
-Detalle (n.m.);Détail (n.m.);Detail (n.);;;Dibujo técnico/Revit
-Diámetro (n.m.);Diamètre (n.m.);Diameter (n.);;;Dibujo técnico/Revit
-Dibujo (n.m.);Dessin (n.m.);Drawing (n.);;;Sin clasificar
-Dintel (n.m.);Linteau (n.m.);Lintel (n.);;;Elementos constructivos
-Edificio (n.m.);Bâtiment (n.m.);;;Gebäude (n.n.);Sin clasificar
-Electricidad (n.f.);Électricité (n.f.);Electricity (n.);;;Organización obra
-Electricista (n.m.);Électricien (n.m);;;;Oficios
-Electricista (n.m/f.);Électricien/ienne (n.m/f.);Electrician (n.);;;Organización obra
-Emparrillado (n.m.);Ossature primaire (n.f.);Auxiliary grid (n.);;;Elementos constructivos
-Empotrado (adj.);Encastré (adj.);;;;Elementos constructivos
-Empotrar (v.);Encastrer (v.);;;;Elementos constructivos
+Cota (n.f.);Cote (n.f.);;;;Dibujo/Planos
+Cuelgue (n.m.);;Hang (n.);;;Vocabulario construcción
+Demoler (v.);Démolir (v.);Demolish (v.);;;Vocabulario construcción
+Descargar (v.);Décharger (v.);Unload (v.);;;Organización obra/maquinaria
+Destornillador (n.m.);Tournevis (n.m.);Screwdriver (n.);;;Organización obra/maquinaria
+Detalle (n.m.);Détail (n.m.);Detail (n.);;;Dibujo/Planos
+Diámetro (n.m.);Diamètre (n.m.);Diameter (n.);;;Dibujo/Planos
+Dibujo (n.m.);Dessin (n.m.);Drawing (n.);;;Dibujo/Planos
+Dintel (n.m.);Linteau (n.m.);Lintel (n.);;;Vocabulario construcción
+Edificio (n.m.);Bâtiment (n.m.);;;Gebäude (n.n.);Vocabulario construcción
+Electricidad (n.f.);Électricité (n.f.);Electricity (n.);;;Organización obra/maquinaria
+Electricista (n.m/f.);Électricien/ienne (n.m/f.);Electrician (n.);;;Oficios/roles
+Emparrillado (n.m.);Ossature primaire (n.f.);Auxiliary grid (n.);;;Vocabulario construcción
+Empotrado (adj.);Encastré (adj.);;;;Vocabulario construcción
+Empotrar (v.);Encastrer (v.);;;;Vocabulario construcción
 Empresa (n.f.);Entreprise (n.f.);Company (n.);;Firma (n.f.);Presupuesto/gestión/administración
-Encargado/a de obra (n.m/f.);Chef de chantier (n.m/f.);;;;Organización obra
-Enchufe (n.m.);Prise électrique (n.f.);Plug (n.);;;Elementos constructivos
-Encintador (n.m.);;Taper (n);;;Sin clasificar
+Encargado/a de obra (n.m/f.);Chef de chantier (n.m/f.);;;;Oficios/roles
+Enchufe (n.m.);Prise électrique (n.f.);Plug (n.);;;Vocabulario construcción
+Encintador (n.m.);;Taper (n.);;;Oficios/roles
 Entrada (n.f.);Entrée (n.f.);Entrance (n.);;Eingang (n.m.);Elementos de tienda/distribución
-Escalera (n.f.);Escalier (n.m.);Stairs/staircase (n.);;Treppe (n.f.);Elementos constructivos
+Escalera (n.f.);Escalier (n.m.);Stairs/staircase (n.);;Treppe (n.f.);Vocabulario construcción
 Escaparate (n.m.);Vitrine (n.f.);Shop display/store window (n.);;;Elementos de tienda/distribución
-Espátula (n.f.);Spatule (n.f.);;;;Organización obra
+Espátula (n.f.);Spatule (n.f.);;;;Organización obra/maquinaria
 Espejo (n.m.);Miroir (n.m.);Mirror (n.);;Spiegel (n.m.);Elementos de tienda/distribución
-Espesor (n.f.);Épaisseur (n.f.);Thickness (n.);;Dicke (n.f.);Dibujo técnico/Revit
-Estructura (n.f.);Structure (n.f.);Structure (n.);;Aufbau (n.m.);Elementos constructivos
-Extintor (n.m);Extincteur (n.m.);;;;Sin clasificar
-Fachada (n.f.);Façade (n.f.);Facade (n.);;;Dibujo técnico/Revit
-Falso techo (n.m.);Faux plafond (n.m.);False ceiling (n.);;;Elementos constructivos
-Fecha de caducidad (n.f.);Date de péremption (n.f.);;;;Sin clasificar
-Foco (n.m.);Spot (n.m.);;;;Elementos constructivos
-Fontanería (n.f.);Plomberie (n.m.);Plumbing (n.);;;Organización obra
-Fontanero (n.m.);Plombier (n.m.);Plumber (n.);;;Oficios
-Fontanero/a (n.m/f.);Plombier/ière (n.m.);Plumber (n.);;;Organización obra
-Forjado (n.m.);Plancher (n.m.)/Dalle (n.f.);Slab;;;Elementos constructivos
+Espesor (n.m.);Épaisseur (n.f.);Thickness (n.);;Dicke (n.f.);Dibujo/Planos
+Estructura (n.f.);Structure (n.f.);Structure (n.);;Aufbau (n.m.);Vocabulario construcción
+Extintor (n.m.);Extincteur (n.m.);;;;Elementos de tienda/distribución
+Fachada (n.f.);Façade (n.f.);Facade (n.);;;Dibujo/Planos
+Falso techo (n.m.);Faux plafond (n.m.);False ceiling (n.);;;Vocabulario construcción
+Fecha de caducidad (n.f.);Date de péremption (n.f.);;;;Presupuesto/gestión/administración
+Foco (n.m.);Spot (n.m.);;;;Vocabulario construcción
+Fontanería (n.f.);Plomberie (n.m.);Plumbing (n.);;;Organización obra/maquinaria
+Fontanero/a (n.m/f.);Plombier/ière (n.m/f.);Plumber (n.);;;Oficios/roles
+Forjado (n.m.);Plancher (n.m.)/Dalle (n.f.);Slab (n.);;;Vocabulario construcción
 Gasto (n.m.);Dépense (n.f.);;;;Presupuesto/gestión/administración
-Grado (n.m.);Degré (n.m.);Degree (n.);;;Dibujo técnico/Revit
-Guarnición (n.f.);Chant plat (n.m.+adj.);Casing (n.);;;Sin clasificar
-Hidrófugo (adj.);Hydrofuge (adj.);Waterproof (adj.);;;Elementos constructivos
+Grado (n.m.);Degré (n.m.);Degree (n.);;;Dibujo/Planos
+Guarnición (n.f.);Chant plat (n.m.+adj.);Casing (n.);;;Vocabulario construcción
+Hidrófugo (adj.);Hydrofuge (adj.);Waterproof (adj.);;;Vocabulario construcción
 Hierro (n.m.);Fer (n.m.);Iron (n.);;;Materiales
 Hormigón (n.m.);Béton (n.m.);Concrete (n.);;;Materiales
 Hornacina (n.f.);Niche (n.f.);Niche (n.);;;Elementos de tienda/distribución
-Hueco en forjado (n.m.);Trémie (n.f.);;;;Sin clasificar
-Ignífugo (adj.);Ignifuge (adj.);Fireproof (adj.);;;Elementos constructivos
-Inclinado (adj.);Incliné (adj.);;;;Dibujo técnico/Revit
+Hueco en forjado (n.m.);Trémie (n.f.);;;;Vocabulario construcción
+Ignífugo (adj.);Ignifuge (adj.);Fireproof (adj.);;;Vocabulario construcción
+Inclinado (adj.);Incliné (adj.);;;;Dibujo/Planos
 Informe (n.m.);Rapport (n.m.);Report (n.);;;Presupuesto/gestión/administración
-Inmueble (n.m.);Immeuble (n.m.);;;;Sin clasificar
+Inmueble (n.m.);Immeuble (n.m.);;;;Vocabulario construcción
 Inoxidable (adj.);Inoxydable (adj.);Stainless (adj.);Inossidabile (adj.);;Materiales
-Junta (n.f.);Joint (n.m.);Joint (n.);;;Elementos constructivos
-Junta de dilatación (n.f.);Joint de dilatation (n.m.);Expansion joint (adj.+n.);;;Elementos constructivos
+Junta (n.f.);Joint (n.m.);Joint (n.);;;Vocabulario construcción
+Junta de dilatación (n.f.);Joint de dilatation (n.m.);Expansion joint (adj.+n.);;;Vocabulario construcción
 Ladrillo (n.m.);Brique (n.f.);Brick (n.);;;Materiales
-Lana de roca (n.f.);Laine de roche (n.f.);;;;Materiales
+Lana de roca (n.f.);Laine de roche (n.f.);Rock wool (n.);Lana di roccia (n.f.);;Materiales
 Lana mineral (n.f.+adj.);Laine minérale (n.f.+adj.);;;;Materiales
 Lencería (n.f.);Lingerie (n.f.);;;;Elementos de tienda/distribución
-Leyenda (n.f.);Légende (n.f.);Legend (n.);;;Dibujo técnico/Revit
+Leyenda (n.f.);Légende (n.f.);Legend (n.);;;Dibujo/Planos
 Limpiar (v.);Nettoyer (v.);Clean (v.);;;Sin clasificar
 Limpieza (n.f.);Nettoyage (n.f.);Cleaning (n.);;;Sin clasificar
 Limpio (adj.);Propre (adj.);Clean (adj.);;;Sin clasificar
 Local técnico (n.m.);Local technique (n.m.);Technical room (n.);;;Elementos de tienda/distribución
 Lona (n.f.);Bâche (n.f.);;;;Sin clasificar
-Lona (n.f.);Toile (n.f.);;;;Elementos constructivos
-Lucernario (n.m.);;Skylight (n.);;;Sin clasificar
+Lona (n.f.);Toile (n.f.);;;;Vocabulario construcción
+Lucernario (n.m.);;Skylight (n.);;;Vocabulario construcción
 Luz (n.f.);Lumière (n.f.);Light (n.);;;Sin clasificar
 Madera (n.f.);Bois (n.m.);Wood (n.);;;Materiales
-Mainel (n.m.);Meneau (n.m.);Mullion (n.);;;Elementos constructivos
+Mainel (n.m.);Meneau (n.m.);Mullion (n.);;;Vocabulario construcción
 Mandar (v.);Envoyer (v.);Send (v.);;;Presupuesto/gestión/administración
-Manilla (n.f.);Poignée (n.f.);Handle (n.);;;Elementos constructivos
+Manilla (n.f.);Poignée (n.f.);Handle (n.);;;Vocabulario construcción
 Maniquí (n.m.);Mannequin (n.m.);Mannequin (n.);;;Elementos de tienda/distribución
-Marco (n.m);Cadre (n.m);;;;Elementos constructivos
-Medir (v.);Mesurer (v.);;;;Elementos constructivos
+Marco (n.m.);Cadre (n.m.);;;;Vocabulario construcción
+Medir (v.);Mesurer (v.);;;;Vocabulario construcción
 Mesa (n.f.);Table (n.f.);Table (n.);;;Elementos de tienda/distribución
 Metal (n.m.);Métal (n.m.);Metal (n.);;;Materiales
 Mobiliario (n.m.);Mobilier (n.m.);Furniture (n.);;;Elementos de tienda/distribución
-Montacarga;Monte-charge;;;;Organización obra
-Montador (n.m.);;Fixer (n.);;;Organización obra
-Montante (n.m.);Montant (n.m.);Stud (n.);;;Elementos constructivos
+Montacarga (n.m.);Monte-charge (n.m.);Goods lift (n.);;;Organización obra/maquinaria
+Montador (n.m.);;Fixer (n.);;;Organización obra/maquinaria
+Montante (n.m.);Montant (n.m.);Stud (n.);;;Vocabulario construcción
 Mueble (n.m.);Meuble (n.m.);Furniture (n.);;;Elementos de tienda/distribución
-Murete (n.m.);Muret (n.m.);;;;Elementos constructivos
-Muro (n.m.);Mur (n.m.);Wall (n.);;;Elementos constructivos
-Muro cortina (n.m.);Mur-rideau (n.m.);Curtain wall (n.);;;Elementos constructivos
-Muro de bloque (n.m.);Mur en parpaings (n.m.);;;;Elementos constructivos
-Nube de puntos (n.f.);Nuage de points (n.m.);Point cloud (n.);;;Dibujo técnico/Revit
-Obra (n.f.);Chantier (n.m.);Construction site (n.m.);;;Organización obra
+Murete (n.m.);Muret (n.m.);;;;Vocabulario construcción
+Muro (n.m.);Mur (n.m.);Wall (n.);;;Vocabulario construcción
+Muro cortina (n.m.);Mur-rideau (n.m.);Curtain wall (n.);;;Vocabulario construcción
+Muro de bloque (n.m.);Mur en parpaings (n.m.);;;;Vocabulario construcción
+Nube de puntos (n.f.);Nuage de points (n.m.);Point cloud (n.);;;Dibujo/Planos
+Obra (n.f.);Chantier (n.m.);Construction site (n.);;;Organización obra/maquinaria
 Pantalla (n.f.);Écran (n.f.);Screen (n.);;;Elementos de tienda/distribución
 Pasamanos (n.m.);Main courante (n.f.+adj.);Handrail (n.);;;Elementos de tienda/distribución
 Pasillo (n.m.);Couloir (n.m.);Hallway (n.);;;Elementos de tienda/distribución
 Pedido (n.m.);Commande (n.f.);Order (n.);;;Presupuesto/gestión/administración
-Perfil (n.m.);Profil (n.m.);Profile (n.);;;Elementos constructivos
-Persiana (n.f.);Store (n.m.);Shutter (n.);;;Elementos constructivos
-Pestillo (n.m.);Verrou (n.m.);Latch (n.);;;Sin clasificar
+Perfil (n.m.);Profil (n.m.);Profile (n.);;;Vocabulario construcción
+Persiana (n.f.);Store (n.m.);Shutter (n.);;;Vocabulario construcción
+Pestillo (n.m.);Verrou (n.m.);Latch (n.);;;Vocabulario construcción
 Piedra (n.f.);Pierre (n.f.);Stone (n.);;;Materiales
-Pilar (n.m.);Poteau (n.m.);Column (n.);;;Elementos constructivos
-Pintor (n.m.);Peintre (n.m.);Painter (n.);;;Organización obra
-Pintor (n.m.);Peintre (n.m.);;;;Oficios
-Pintura (n.f.);Peinture (n.f.);Paint (n.);;;Elementos constructivos
-Placa (n.f.);Plaque (n.f.);Board (n.);;;Elementos constructivos
-Plano (n.m.);Plan (n.m.);Plan (n.);;;Dibujo técnico/Revit
+Pilar (n.m.);Poteau (n.m.);Column (n.);;;Vocabulario construcción
+Pintor (n.m.);Peintre (n.m.);Painter (n.);;;Oficios/roles
+Pintura (n.f.);Peinture (n.f.);Paint (n.);;;Vocabulario construcción
+Placa (n.f.);Plaque (n.f.);Board (n.);;;Vocabulario construcción
+Plano (n.m.);Plan (n.m.);Plan (n.);;;Dibujo/Planos
 Planta baja (n.f.);Rez-de-chaussée (n.m.);Ground floor (n.);;;Elementos de tienda/distribución
 Plástico (n.m.);Plastique (n.m.);Plastic (n.);;;Materiales
 Presupuesto (n.m.);Devis (n.m.);;;;Presupuesto/gestión/administración
-Probador (n.m.);Cabine d'essayage (n.f.);Fitting room;;;Elementos de tienda/distribución
-Programa informático (n.m.);Logiciel informatique (n.m.);Software (n.);;;Sin clasificar
+Probador (n.m.);Cabine d'essayage (n.f.);Fitting room (n.);;;Elementos de tienda/distribución
+Programa informático (n.m.);Logiciel informatique (n.m.);Software (n.);;;Dibujo/Planos
 Proyecto (n.m.);Projet (n.m.);Project (n.);Progetto (n.m.);;Presupuesto/gestión/administración
-Puerta (n.f.);Porte (n.f.);Door (n.);;;Elementos constructivos
-Radio (n.m.);Rayon (n.m.);Radius (n.);;;Dibujo técnico/Revit
-Rampa (n.f.);Rampe (n.f.);;;;Elementos constructivos
-Rastrel (n.m.);Tasseau (n.m.);;;;Elementos constructivos
-Refuerzo (n.m.);Renfort (n.m.);Reinforcement (n.);;;Elementos constructivos
-Registro (n.m.);Trappe (n.f.);Hatch (n.);;;Elementos constructivos
+Puerta (n.f.);Porte (n.f.);Door (n.);;;Vocabulario construcción
+Radio (n.m.);Rayon (n.m.);Radius (n.);;;Dibujo/Planos
+Rampa (n.f.);Rampe (n.f.);;;;Vocabulario construcción
+Rastrel (n.m.);Tasseau (n.m.);;;;Vocabulario construcción
+Refuerzo (n.m.);Renfort (n.m.);Reinforcement (n.);;;Vocabulario construcción
+Registro (n.m.);Trappe (n.f.);Hatch (n.);;;Vocabulario construcción
 Resina (n.f.);Résine (n.f.);;;;Materiales
-Retroiluminado (adj.);Rétroéclairé (adj.);Backlighted (adj.);;;Elementos constructivos
-Revestimiento (n.m.);Revêtement (n.m.);Coating (n.);;;Elementos constructivos
-Rociador (n.m.);Gicleur (n.m.);Sprinkler (n.);;;Elementos constructivos
-Rodapié (n.m.);Plinthe (n.f.);Baseboard/skirting board (n.);;;Elementos constructivos
+Retroiluminado (adj.);Rétroéclairé (adj.);Backlighted (adj.);;;Vocabulario construcción
+Revestimiento (n.m.);Revêtement (n.m.);Coating (n.);;;Vocabulario construcción
+Rociador (n.m.);Gicleur (n.m.);Sprinkler (n.);;;Vocabulario construcción
+Rodapié (n.m.);Plinthe (n.f.);Baseboard/skirting board (n.);;;Vocabulario construcción
 Ropa (n.f.);Vêtements (n.m.);Clothes (n.);;;Elementos de tienda/distribución
 Rótulo (n.m.);Enseigne (n.f.);Sign (n.);;;Elementos de tienda/distribución
 Salida (n.f.);Sortie (n.f.);Exit (n.);;;Elementos de tienda/distribución
 Salida de emergencia (n.f.);Sortie de secours (n.f.);Emergency exit (n.);;;Elementos de tienda/distribución
-Sección (n.f.);Coupe (n.f.);Section (n.);;;Dibujo técnico/Revit
-Segmento (n.m.);Segment (n.m.);Segment (n.);;;Dibujo técnico/Revit
-Sellado (n.m.);Scellement (n.m.);Sealant (n.);;;Elementos constructivos
-Silo (n.m.);Réserve robotisée (n.f.+adj.);;;;Sin clasificar
+Sección (n.f.);Coupe (n.f.);Section (n.);;;Dibujo/Planos
+Segmento (n.m.);Segment (n.m.);Segment (n.);;;Dibujo/Planos
+Sellado (n.m.);Scellement (n.m.);Sealant (n.);;;Vocabulario construcción
+Silo (n.m.);Réserve robotisée (n.f.+adj.);;;;Vocabulario construcción
 Sótano (n.m.);Sous-sol (n.m.);;;;Elementos de tienda/distribución
 Subcontrata (n.f.);Sous-traitant (n.f.);;;;Presupuesto/gestión/administración
 Suministrar (v.);Approvisionner (v.);Supply (v.);;;Presupuesto/gestión/administración
 Suministro (n.m.);Approvisionnement (n.m.);Supply/provide (n.);;;Presupuesto/gestión/administración
-Tabica (n.f.);Retombée (n.m.);;;;Sin clasificar
-Tabique (n.m.);Cloison (n.f.);Partition (n.);;;Elementos constructivos
-Taladro (n.m.);Perceuse (n.f.);Drill (n.);;;Organización obra
+Tabica (n.f.);Retombée (n.m.);;;;Vocabulario construcción
+Tabique (n.m.);Cloison (n.f.);Partition (n.);;;Vocabulario construcción
+Taladro (n.m.);Perceuse (n.f.);Drill (n.);;;Organización obra/maquinaria
 Taquilla (n.f.);Casier (n.m.);Locker (n.);;;Elementos de tienda/distribución
-Teja (n.f.);Tuile (n.f.);Tile (n.);;;Elementos constructivos
-Tejado (n.m.);Toit (n.m.);Roof (n.);;;Elementos constructivos
-Tornillo (n.m.);Vis (n.f.);Screw (n.);;;Elementos constructivos
-Toro (n.m.);Chariot élévateur (n.m.);;;;Organización obra
-Trasdosado (n.m.);Contre-cloison (n.f.);Liner wall (n.);;;Elementos constructivos
-Tubería (n.f.);Tuyau (n.m.);Pipe (n.);;;Elementos constructivos
-Tubular (adj.);Tubulaire (adj.);;;;Elementos constructivos
-Unidad (n.f.);Unité (n.f.);Unity (n.);;;Presupuesto/gestión/administración
-Vallado (n.m.);Palissade (n.f.);;;;Sin clasificar
-Varilla (n.f.);Tige (n.f.);;;;Sin clasificar
-Ventana (n.f.);Fenêtre (n.f.);Window (n.);;;Elementos constructivos
-Ventosa (n.f.);Ventouse (n.f.);;;;Sin clasificar
-Vestuario (n.m.);Vestiaire (n.m);Locker room/changing room (n.);;;Elementos de tienda/distribución
+Teja (n.f.);Tuile (n.f.);Tile (n.);;;Vocabulario construcción
+Tejado (n.m.);Toit (n.m.);Roof (n.);;;Vocabulario construcción
+Tornillo (n.m.);Vis (n.f.);Screw (n.);;;Vocabulario construcción
+Toro (n.m.);Chariot élévateur (n.m.);;;;Organización obra/maquinaria
+Trasdosado (n.m.);Contre-cloison (n.f.);Liner wall (n.);;;Vocabulario construcción
+Tubería (n.f.);Tuyau (n.m.);Pipe (n.);;;Vocabulario construcción
+Tubular (adj.);Tubulaire (adj.);;;;Vocabulario construcción
+Unidad (n.f.);Unité (n.f.);Unit (n.);;;Presupuesto/gestión/administración
+Vallado (n.m.);Palissade (n.f.);;;;Vocabulario construcción
+Varilla (n.f.);Tige (n.f.);;;;Vocabulario construcción
+Ventana (n.f.);Fenêtre (n.f.);Window (n.);;;Vocabulario construcción
+Ventosa (n.f.);Ventouse (n.f.);;;;Vocabulario construcción
+Vestuario (n.m.);Vestiaire (n.m.);Locker room/changing room (n.);;;Elementos de tienda/distribución
 Vierteaguas (n.f.);Rejingot (n.m.);Window sill (n.);;;Elementos de tienda/distribución
-Viga (n.f.);Poutre (n.f.);Beam (n.);;;Elementos constructivos
-Vigueta (n.f);Poutrelle (n.f.);Joist (n.);;;Elementos constructivos
-Voladizo (n.m.);Porte-à-faux (n.m.);Cantilever (n.);;;Elementos constructivos
-Volumen (n.m.);Volume (n.m.);Volume (n.);;;Elementos constructivos
-Zócalo (n.m.);Plinthe (n.f.);Baseboard/skirting board (n.);;;Elementos constructivos
+Viga (n.f.);Poutre (n.f.);Beam (n.);;;Vocabulario construcción
+Vigueta (n.f.);Poutrelle (n.f.);Joist (n.);;;Vocabulario construcción
+Voladizo (n.m.);Porte-à-faux (n.m.);Cantilever (n.);;;Vocabulario construcción
+Volumen (n.m.);Volume (n.m.);Volume (n.);;;Vocabulario construcción
+Zócalo (n.m.);Plinthe (n.f.);Baseboard/skirting board (n.);;;Vocabulario construcción
 Zona (n.f.);Zone (n.f.);Zone (n.);;;Elementos de tienda/distribución
+Decorador/a (n.m/f.);Décorateur/trice (n.m/f.);Decorator (n.);;;Oficios/roles
+Proyectista (n.m/f.);Projeteur/euse (n.m/f.);Designer (n.);;;Oficios/roles
+Coordinador/a de seguridad (n.m/f.);Coordinateur/trice de sécurité (n.m/f.);Safety coordinator (n.);;;Oficios/roles
+Casco (n.m.);Casque (n.m.);Hard hat (n.);;;Organización obra/maquinaria
+Zapatos de seguridad (n.m.pl.);Chaussures de sécurité (n.f.pl.);Safety shoes (n.pl.);;;Organización obra/maquinaria
+Transportista (n.m/f.);Transporteur/euse (n.m/f.);Haulier/carrier (n.);;;Oficios/roles
+Repartidor/a (n.m/f.);Livreur/euse (n.m/f.);Delivery driver (n.);;;Oficios/roles
+Camión (n.m.);Camion (n.m.);Lorry/truck (n.);;;Organización obra/maquinaria
+Mármol (n.m.);Marbre (n.m.);Marble (n.);;;Materiales
+Chapa (n.f.);Tôle (n.f.);Sheet metal (n.);;;Materiales
+Aluminio (n.m.);Aluminium (n.m.);Aluminium (n.);;;Materiales
+Fundición (n.f.);Fonte (n.f.);Cast iron (n.);;;Materiales
+DM (n.m.);MDF (n.m.);MDF (n.);;;Materiales
+Yeso (n.m.);Plâtre (n.m.);Gypsum/plaster (n.);;;Materiales
+Escayola (n.f.);Plâtre (n.m.);Plaster of Paris (n.);;;Materiales
+Mortero (n.m.);Mortier (n.m.);Mortar (n.);Malta (n.f.);Mörtel (n.m.);Materiales
