@@ -7,7 +7,7 @@ main{max-width:1200px;margin:0 auto;padding:18px 24px 96px}
 .tag{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--mu);padding-top:6px}
 .bar{display:flex;justify-content:space-between;font-size:11px;letter-spacing:.06em;text-transform:uppercase}
 .hero{margin-top:72px;row-gap:32px}.hero .tag{grid-column:1/4}
-h1{grid-column:4/13;margin:0;font-weight:600;font-size:clamp(34px,7.4vw,100px);line-height:.9;letter-spacing:-.045em;text-transform:uppercase}
+h1{grid-column:4/13;margin:0;font-weight:600;font-size:clamp(34px,7.4vw,100px);line-height:1.02;letter-spacing:-.045em;text-transform:uppercase}
 .about{grid-column:7/13;margin:0;font-size:13px;font-weight:500;max-width:44ch}
 .menu{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px 8px}
 .mh{display:flex;justify-content:space-between;align-items:baseline;margin-top:88px;margin-bottom:14px}
@@ -16,13 +16,13 @@ h1{grid-column:4/13;margin:0;font-weight:600;font-size:clamp(34px,7.4vw,100px);l
 .ph svg,.ph img{position:absolute;inset:0;width:100%;height:100%}.ph svg{padding:7%;box-sizing:border-box}
 .ph img{object-fit:cover;filter:grayscale(1) contrast(1.05)}
 .ph .w{fill:var(--pf)}.ph .b{fill:var(--ph)}.ph .k{fill:currentColor}
-.ln{height:8px;margin-top:8px}.ln::before{content:"";display:block;height:4px;background:var(--c);transition:height .15s}.fig[aria-pressed=true] .ln::before{height:8px}.ph{transition:opacity .2s}.menu.on .fig[aria-pressed=false] .ph{opacity:.4}.menu.on .fig[aria-pressed=false]:hover .ph{opacity:1}
+.ln{height:12px;margin-top:8px}.ln::before{content:"";display:block;height:8px;background:var(--c);transition:height .15s}.fig[aria-pressed=true] .ln::before{height:12px}.ph{transition:opacity .2s}.menu.on .fig[aria-pressed=false] .ph{opacity:.4}.menu.on .fig[aria-pressed=false]:hover .ph{opacity:1}
 .cap{display:flex;align-items:flex-start;gap:7px;margin-top:6px;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--mu)}
 .cap i{flex:none;width:8px;height:8px;margin-top:3px;border-radius:50%;background:var(--c)}.cap em{font-style:normal;flex:1;min-width:0;line-height:1.35;overflow-wrap:anywhere}.cap b{margin-left:auto;font-weight:500}
 .fig:hover .cap,.fig:focus-visible .cap,.fig[aria-pressed=true] .cap{color:var(--ink)}
 [hidden]{display:none!important}
 .ctl{margin-top:96px;row-gap:22px}.ctl .tag{grid-column:1/4}.ctl .box{grid-column:4/13}
-#q{display:block;width:100%;box-sizing:border-box;margin:0;padding:0 0 10px 1.1em;border:0;border-bottom:2px solid var(--ink);border-radius:0;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23BDBDB8' stroke-width='2' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='m20 20-3.5-3.5'/%3E%3C/svg%3E") no-repeat left .04em bottom .36em;background-size:.6em;color:var(--ink);font:600 clamp(26px,4.6vw,52px)/1.1 Inter,"Helvetica Neue",Arial,sans-serif;letter-spacing:-.03em;text-transform:uppercase;-webkit-appearance:none;appearance:none}
+#q{display:block;width:100%;box-sizing:border-box;margin:0;padding:0 0 10px 1.1em;border:0;border-bottom:2px solid var(--ink);border-radius:0;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23BDBDB8' stroke-width='2' stroke-linecap='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='m20 20-3.5-3.5'/%3E%3C/svg%3E") no-repeat left .04em bottom .36em;background-size:.6em;color:var(--ink);font:600 clamp(20px,3.2vw,36px)/1.1 Inter,"Helvetica Neue",Arial,sans-serif;letter-spacing:-.03em;text-transform:uppercase;-webkit-appearance:none;appearance:none}
 #q::placeholder{color:#C4C4C0}#q:focus{outline:none;box-shadow:0 2px 0 var(--ink)}#q::-webkit-search-cancel-button{display:none}
 .opt{display:inline-flex;align-items:center;gap:7px;background:none;border:0;border-bottom:1.5px solid transparent;border-radius:0;padding:3px 0;margin:0 20px 8px 0;font:inherit;font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:var(--mu);cursor:pointer}
 .opt i{width:9px;height:9px;border-radius:50%;background:var(--c)}
@@ -33,7 +33,7 @@ button:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
 .l{grid-column:1/5;display:flex;flex-direction:column;gap:6px;align-items:flex-start}
 h2{margin:0;font-size:19px;line-height:1.15;font-weight:600;letter-spacing:-.025em}
 .lg,dt{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--mu)}
-.cats{display:flex;flex-direction:column;gap:4px;align-items:flex-start}.cat{display:inline-flex;align-items:center;gap:7px;font-size:13px;color:var(--mu)}.cat i{flex:none;width:9px;height:9px;border-radius:50%;background:var(--c)}
+.cats{display:flex;flex-direction:column;gap:4px;align-items:flex-start}.cat{display:inline-flex;align-items:center;gap:7px;font-size:13px;color:var(--mu)}.cat i{flex:none;width:18px;height:3px;border-radius:0;background:var(--c)}
 dl{grid-column:5/13;margin:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px 20px;align-content:start}dd{overflow-wrap:break-word}
 dd{margin:3px 0 0;font-size:16px}dd.fr{font-weight:600}
 mark{background:#0A0A0A;color:#fff;padding:0 2px}
@@ -46,7 +46,7 @@ dialog{border:0;padding:0;width:calc(100% - 32px);max-width:480px;background:#ff
 #sf .go{display:flex;gap:18px;align-items:center;margin-top:4px}#sf-b{background:#0A0A0A;color:#fff;border:0;padding:12px 20px;font:500 12px Inter,Arial,sans-serif;letter-spacing:.06em;text-transform:uppercase;cursor:pointer}#sf-b:disabled{opacity:.5}
 #sf-m{min-height:1.2em;font-size:13px}#sf-m.ok{color:#2F6B3A}#sf-m.bad{color:#9B2C2C}#sf-hp{display:none!important}
 .gm{font-size:.62em;font-weight:400;color:var(--mu);letter-spacing:0;margin-left:.4em;white-space:nowrap}
-</style></head><body><main><div class="bar"><span>ES FR EN IT DE</span><span id="n"></span></div><section class="g hero"><span class="tag">[ Acerca ]</span><h1>Traductor técnico</h1><p class="about">Vocabulario técnico en cinco idiomas. Escribe un término en cualquier idioma y consulta sus traducciones.</p></section><section><div class="mh"><span class="tag">[ Categorías ]</span><button class="opt" id="all" hidden>Ver todas</button></div><div class="menu" id="menu"></div></section><section class="g ctl"><span class="tag">[ Buscar ]</span><div class="box"><input id="q" type="search" placeholder="" autocomplete="off" aria-label="Buscar un término"></div><span class="tag">[ Idioma ]</span><div class="box"><div id="seg" role="group" aria-label="Idioma de búsqueda"></div><div id="seg2" role="group" aria-label="Idioma buscado"></div></div></section><section id="o" aria-live="polite"></section></main><dialog id="dlg" aria-labelledby="sf-h"><form id="sf" novalidate><h3 id="sf-h">Sugerir traducción</h3>
+</style></head><body><main><div class="bar"><span>ES FR EN IT DE</span><span id="n"></span></div><section class="g hero"><span class="tag">[ Acerca ]</span><h1>Traductor técnico</h1><p class="about">Vocabulario técnico en cinco idiomas. Escribe un término en cualquier idioma y consulta sus traducciones.</p></section><section><div class="mh"><span class="tag">[ Categorías ]</span><button class="opt" id="all" hidden>Ver todas</button></div><div class="menu" id="menu"></div></section><section class="g ctl"><span class="tag">[ Buscar ]</span><div class="box"><input id="q" type="search" placeholder="" autocomplete="off" aria-label="Buscar un término"></div><span class="tag">[ Idioma de búsqueda ]</span><div class="box" id="seg" role="group" aria-label="Idioma de búsqueda"></div><span class="tag">[ Idioma buscado ]</span><div class="box" id="seg2" role="group" aria-label="Idioma buscado"></div></section><section id="o" aria-live="polite"></section></main><dialog id="dlg" aria-labelledby="sf-h"><form id="sf" novalidate><h3 id="sf-h">Sugerir traducción</h3>
 <div><label for="sf-t">Término en español</label><input id="sf-t" required autocomplete="off"></div>
 <div><label for="sf-l">Idioma de la traducción</label><select id="sf-l"><option value="1">Français</option><option value="2">English</option><option value="3">Italiano</option><option value="4">Deutsch</option></select></div>
 <div><label for="sf-s">Traducción sugerida</label><input id="sf-s" required autocomplete="off"></div>
@@ -77,7 +77,7 @@ if(q){if(h=='"'){if(t[i+1]=='"'){c+='"';i++}else q=false}else c+=h}
 else if(h=='"')q=true;else if(h==d){r.push(c);c=''}
 else if(h=='\n'||h=='\r'){if(h=='\r'&&t[i+1]=='\n')i++;r.push(c);R.push(r);r=[];c=''}else c+=h}
 if(c||r.length){r.push(c);R.push(r)}return R}
-function bar(){const mk=(sel,off,h)=>h+LB.map((n,j)=>`<button class="opt" data-l="${j}" aria-pressed="${j===sel}"${j===off?' disabled':''}>${n}</button>`).join('');$('seg').innerHTML=mk(S,T,`<button class="opt" data-l="-1" aria-pressed="${S<0}">Todos</button>`);$('seg2').innerHTML=mk(T,S,'<button class="opt" tabindex="-1" aria-hidden="true" style="visibility:hidden">Todos</button>')}
+function bar(){const mk=(sel,off,h)=>h+LB.map((n,j)=>`<button class="opt" data-l="${j}" aria-pressed="${j===sel}"${j===off?' disabled':''}>${n}</button>`).join('');$('seg').innerHTML=mk(S,T,`<div><button class="opt" data-l="-1" aria-pressed="${S<0}">Todos</button></div>`);$('seg2').innerHTML=mk(T,S,'')}
 function init(t){E=parse(t).slice(1).filter(p=>(p[0]||'').trim().length>1).map(p=>({f:[0,1,2,3,4].map(i=>(p[i]||'').trim()),c:(p[5]||'').trim()||(p[6]||'').trim()||SC,c2:((p[5]||'').trim()&&(p[6]||'').trim()!==(p[5]||'').trim())?(p[6]||'').trim():''}));
 E.forEach((e,k)=>e.k=k);document.querySelectorAll('.fig').forEach(b=>{b.querySelector('.ct').textContent=E.filter(e=>e.c===b.dataset.c||e.c2===b.dataset.c).length});
 go()}
